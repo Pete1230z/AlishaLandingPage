@@ -2,10 +2,12 @@
 border: 1px solid black;
 }
 
+/* Start NavBar */
+
 .navbar{
 	display: flex;
 	justify-content: space-between;
-	background-color: #ff671f;
+	background-color: #eb6953;
 	color: #ffff;
 }
 
@@ -23,3 +25,37 @@ border: 1px solid black;
 	padding: 0;
 	font-size: 20px;
 }
+
+/* End NavBar */
+
+/* Start Headshot */
+
+.headshot {
+	display: flex;
+	padding: 100px;
+	font-size: 20px;
+	background-color: #262c65;
+	color: #ffff;
+	gap: 100px;
+}
+
+.pheadshot {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pheader {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.pbody {
+	flex: 1 1 0;
+}
+
+.picturehead {
+	width: 500px;
+	height: 200px;
+}
+/* End Headshot */
