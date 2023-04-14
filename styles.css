@@ -6,6 +6,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	color: #dedede;
+	font-family: sans-serif;
 }
 
 /* Start NavBar */
@@ -15,6 +16,7 @@ body {
 	justify-content: space-between;
 	background-color: #eb6953;
 	color: #dedede;
+	font-family: sans-serif;
 }
 
 .navhead{
@@ -111,6 +113,7 @@ body {
 	align-self: flex-end;
 	padding-right: 200px;
 	padding-bottom: 100px;
+	padding-top: 50px;
 }
 /* End Quote */
 
